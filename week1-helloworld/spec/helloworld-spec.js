@@ -11,8 +11,8 @@ describe("Hello World server testing", function() {
     });
 
     it("returns Hello World", function(done) {
-      request.get(base_url, function(error, response, body) {
-        expect(body).toBe("Hello World");
+      request.get("http://localhost:8000/", function(error, response, body) {
+        expect(body).toBe("Hello world!");
         done();
       });
     });
