@@ -1,14 +1,14 @@
 # hello world
 
-`npm install`
+1. `npm install`
 
-to see the app running:
+2. to see the app running:
 
 `node helloworld.js`
 
 then go to http://localhost.com:8000
 
 
-to test:
+3. to test:
 
 `npm test`
