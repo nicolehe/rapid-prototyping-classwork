@@ -1,7 +1,7 @@
 {
   "name": "week1-helloworld",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. `npm install`",
   "main": "helloworld.js",
   "dependencies": {
     "express": "^4.14.0",
